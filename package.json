@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js",
-    "webpack": "webpack",
-    "build": "webpack --mode development"
+   
+    "webpack": "webpack"
+    
   },
   "keywords": [],
   "author": "",
