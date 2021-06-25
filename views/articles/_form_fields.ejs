@@ -1,0 +1,21 @@
+<!--TITLE-->
+<div class="from-group">
+    <label for="title">Title</label>
+    <input required type="text" value="<%= article.title %>" name="title" class="form-control" id="for"/>
+    <!--require 提交時需有資料-->
+</div>
+
+<!--CONTENT-->
+<div class="from-group">
+    <label for="content">Content</label>
+    <textarea  type="text" name="content" class="form-control" id="for"><%= article.content %></textarea>
+</div>
+
+<!--EDIT-->
+<div class="from-group">
+    <label for="markdown">Markdown</label>
+    <textarea required type="text" name="markdown" class="form-control" id="for"><%= article.markdown %></textarea>
+</div>
+
+<a href="/" class="btn btn-secondary mt-3">Cancel</a>
+<button type="submit" class="btn btn-primary mt-3" >Submit</button>
